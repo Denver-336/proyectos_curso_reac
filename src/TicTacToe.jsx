@@ -1,4 +1,4 @@
-import './style/App.css'
+import './style/TicTacToe.css'
 import confetti from 'canvas-confetti'
 import { Square } from './components/Square.jsx'
 import { TURNS } from './utils/constants.js'

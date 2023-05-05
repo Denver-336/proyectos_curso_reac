@@ -1,8 +1,11 @@
-import TicTacToe from './TicTacToe.jsx'
+import Project3 from './MouseFollower.jsx'
+// import TicTacToe from './TicTacToe.jsx'
+import './style/App.css'
 
 function App () {
   return (
-    <TicTacToe />
+    // <TicTacToe />
+    <Project3 />
   )
 }
 
