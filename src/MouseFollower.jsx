@@ -7,8 +7,6 @@ export default function MouseFollower () {
 
   // pointer move
   useEffect(() => {
-    console.log('effect')
-
     const handlerMovie = (event) => {
       const { clientX, clientY } = event
       setPosition({ x: clientX, y: clientY })

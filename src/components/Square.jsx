@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export const Square = ({ children, isSelected, updateBoard, index }) => {
+export function Square ({ children, isSelected, updateBoard, index }) {
   const className = `square ${isSelected ? 'is-selected' : ''}`
 
   const handlerClick = () => {
