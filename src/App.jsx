@@ -1,7 +1,9 @@
 // import Project3 from './MouseFollower.jsx'
 // import TicTacToe from './TicTacToe.jsx'
 // import PruebaTecnica1 from './PruebaTecnica1'
-import Peliculas from './Peliculas'
+// import Peliculas from './Peliculas'
+import ShoppingCart from './ShoppingCart'
+import { FiltersProvider } from './context/filters.jsx'
 import './style/App.css'
 
 function App () {
@@ -9,7 +11,10 @@ function App () {
     // <TicTacToe />
     // <Project3 />
     // <PruebaTecnica1 />
-    <Peliculas />
+    // <Peliculas />
+    <FiltersProvider>
+      <ShoppingCart />
+    </FiltersProvider>
   )
 }
 
